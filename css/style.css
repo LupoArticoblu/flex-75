@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-bottom: 100px;
+}
+
+h3 {
+  color: brown;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.container{
+  display: flex;
+  width: 500px;
+  height: 400px;
+  background-color: cadetblue;
+  margin: 0px auto;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  border: 1px solid black;
+}
+
+.box-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  background-color: brown;
+  border: 1px solid black;
+}
+
+.container.uno .box {
+  margin: 20px;
+}
+
+.container.tre {
+  flex-direction: column;
+}
+
+.container.quattro {
+  flex-direction: row-reverse;
+}
+
+.container.cinque {
+  flex-direction: column-reverse;
+}
+
+.container.sei {
+  justify-content: flex-end;
+}
+
+.container.sette {
+  align-items: flex-end;
+}
+
+.container.otto {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.container.nove {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.container.dieci {
+  justify-content: center;
+}
+
+.container.undici {
+  justify-content: space-between;
+}
+
+.container.dodici {
+  justify-content: space-around;
+}
+
+.container.tredici {
+  justify-content: space-evenly;
+}
+
+.container.quattordici {
+  align-items: center;
+}
+
+.container.quindici {
+  justify-content: center;
+  align-items: center;
+}
+
+.container.sedici .uno{
+  height: 150px;
+}
+.container.sedici .tre{
+  height: 200px;
+}
+
+.container.sedici{
+  align-items: baseline;
+}
+
+.container.diciassette{
+  align-items:stretch;
+}
+
+.container.diciotto{
+  flex-wrap: wrap;
+}
+
+.container.diciannove{
+  flex-wrap: wrap-reverse;
+}
