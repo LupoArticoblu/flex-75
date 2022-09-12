@@ -128,3 +128,74 @@ h3 {
 .container.diciannove{
   flex-wrap: wrap-reverse;
 }
+
+.container.venti .uno{
+  flex-basis: 50px;
+}
+
+.container.venti .due{
+  flex-basis: 150px;
+}
+
+.container.venti .tre{
+  flex-basis: 100px;
+}
+
+.container.ventuno{
+  flex-direction: column;
+}
+
+.container.ventuno .uno{
+  flex-basis: 50px;
+}
+
+.container.ventuno .due{
+  flex-basis: 150px;
+}
+
+.container.ventuno .tre{
+  flex-basis: 100px;
+}
+
+.container.ventidue .uno{
+  flex-grow: 1;
+}
+
+.container.ventidue .due{
+  flex-grow: 0;
+  flex-basis: 100px;
+}
+
+.container.ventidue .tre{
+  flex-grow: 2;
+}
+
+.container.ventitre{
+  width: 90%;
+}
+.container.ventitre .uno{
+  flex-shrink: 1;
+  flex-basis: 50%;
+}
+
+.container.ventitre .due{
+  flex-shrink: 0;
+  flex-basis: 100px;
+}
+
+.container.ventitre .tre{
+  flex-shrink: 2;
+  flex-basis: 50%;
+}
+
+.container.ventiquattro .uno{
+  order: 2;
+}
+
+.container.ventiquattro .due{
+  order: 3;
+}
+
+.container.ventiquattro .tre{
+  order: 1;
+}
